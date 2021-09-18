@@ -1,14 +1,15 @@
-## robotframework project
-# clone source
+**robotframework project
+
+## Clone a repository
 git clone https://github.com/namdo1983/robotframework.git
 
-# robotframework
-Using rpaframework library
-
-# Install requirements file
+---
+## Install requirements file
 pip install -r requirements.txt
 
-# Run from command line
+---
+
+## Run from command line
 cd TESTS
 robot TikiHomePage.robot
 # or
