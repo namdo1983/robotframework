@@ -9,6 +9,6 @@ cd robotframework/
 pip install -r requirements.txt
 
 ## Run from command line
-robot TESTS\TikiHomePage.robot
+robot TESTS/TikiHomePage.robot
 # or
-python -m robot TESTS\TikiHomePage.robot
+python -m robot TESTS/TikiHomePage.robot
