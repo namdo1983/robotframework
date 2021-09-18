@@ -2,6 +2,8 @@
 
 ## Clone a repository
 git clone https://github.com/namdo1983/robotframework.git
+# and
+cd robotframework/
 
 ## Install requirements file
 pip install -r requirements.txt
