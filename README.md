@@ -1,4 +1,4 @@
-**Robotframework project, using rpaframework library
+**Robotframework project, using rpaframework library**
 
 ## Clone a repository
 git clone https://github.com/namdo1983/robotframework.git
