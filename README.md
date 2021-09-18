@@ -7,7 +7,6 @@ git clone https://github.com/namdo1983/robotframework.git
 pip install -r requirements.txt
 
 ## Run from command line
-cd TESTS
-robot TikiHomePage.robot
+robot TESTS\TikiHomePage.robot
 # or
-python -m robot TikiHomePage.robot
+python -m robot TESTS\TikiHomePage.robot
