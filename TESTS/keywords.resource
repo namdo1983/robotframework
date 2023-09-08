@@ -2,7 +2,6 @@
 Library     SeleniumLibrary    run_on_failure=None
 Library     OperatingSystem
 Library     ../DRIVERS/CustomLib.py
-Library     Collections
 
 
 *** Variables ***
@@ -49,11 +48,6 @@ Kham Pha Them
         ${content}    Set Variable    +------------------------------+\n+ ${title}[1]: ${sold}[1]\n
         Append To File    ${PATH_RP}    ${content}
     END
-
-Converting a JSON File
-    [Arguments]    ${data_dict}
-    ${MY_DATA_TABLE_VALUES}    evaluate    json.loads($data_dict)    json
-    RETURN    ${MY_DATA_TABLE_VALUES}
 
 Write Fail Report At TestCase
     ${get_current_url}    Get Location
